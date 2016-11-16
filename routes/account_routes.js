@@ -19,7 +19,7 @@ router.get('/all', function(req, res) {
 
 });
 
-// View the school for the given id
+// View the account for the given id
 router.get('/', function(req, res){
     if(req.query.account_id == null) {
         res.send('account_id is null');
